@@ -1,1 +1,54 @@
-@use "./variables"
+@use "./variables";
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f0e4e4; // 背景色を設定
+  padding: 10px 20px;
+
+  &__logo {
+    width: 100px;
+    height: auto;
+  }
+
+  &__nav {
+    ul {
+      display: flex;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      li {
+        margin-right: 20px;
+        font-family: 'Yu Mincho', serif; // フォントを設定
+        font-size: 1.2em;
+
+        &:last-child {
+          margin-right: 0;
+        }
+
+        a {
+          text-decoration: none;
+          color: #333;
+          position: relative;
+
+          &:hover {
+            color: #666;
+          }
+
+          &::after {
+            content: '／';
+            position: absolute;
+            right: -15px;
+            color: #333;
+          }
+
+          &:last-child::after {
+            content: '';
+          }
+        }
+      }
+    }
+  }
+}

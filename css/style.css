@@ -1,1 +1,43 @@
-/*# sourceMappingURL=style.css.map */
+@charset "UTF-8";
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f0e4e4;
+  padding: 10px 20px;
+}
+.header__logo {
+  width: 100px;
+  height: auto;
+}
+.header__nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.header__nav ul li {
+  margin-right: 20px;
+  font-family: "Yu Mincho", serif;
+  font-size: 1.2em;
+}
+.header__nav ul li:last-child {
+  margin-right: 0;
+}
+.header__nav ul li a {
+  text-decoration: none;
+  color: #333;
+  position: relative;
+}
+.header__nav ul li a:hover {
+  color: #666;
+}
+.header__nav ul li a::after {
+  content: "／";
+  position: absolute;
+  right: -15px;
+  color: #333;
+}
+.header__nav ul li a:last-child::after {
+  content: "";
+}/*# sourceMappingURL=style.css.map */
