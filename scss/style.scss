@@ -4,12 +4,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #f0e4e4; // 背景色を設定
-  padding: 10px 20px;
+  background-color: #e8d8d8; // 背景色を設定
+
 
   &__logo {
-    width: 100px;
-    height: auto;
+    width: auto;
+    height: 100px;
   }
 
   &__nav {
@@ -18,6 +18,7 @@
       list-style: none;
       padding: 0;
       margin: 0;
+        padding: 10px 20px;
 
       li {
         margin-right: 20px;
@@ -32,6 +33,7 @@
           text-decoration: none;
           color: #333;
           position: relative;
+          padding: 0 10px;
 
           &:hover {
             color: #666;
@@ -40,7 +42,7 @@
           &::after {
             content: '／';
             position: absolute;
-            right: -15px;
+            right: -10px;
             color: #333;
           }
 
@@ -50,5 +52,35 @@
         }
       }
     }
+  }
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    font-size: 56px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    font-family: "Kaisei Decol",
+    serif;
+    font-weight: 400;
+    font-style: normal;
   }
 }
