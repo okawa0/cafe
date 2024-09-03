@@ -1,0 +1,107 @@
+// 1. フォントの読み込み
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+// 2. 基本的な変数の定義
+$base-font-family: 'Roboto',
+sans-serif;
+$base-font-size: 16px;
+$base-line-height: 1.5;
+
+// 3. 基本的なタイポグラフィスタイル
+body {
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  color: #333;
+}
+
+// 4. 見出しスタイル
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 0.5em;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.75em;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+h5 {
+  font-size: 1.25em;
+}
+
+h6 {
+  font-size: 1em;
+}
+
+// 5. パラグラフスタイル
+p {
+  margin-bottom: 1em;
+}
+
+// 6. リンクスタイル
+a {
+  color: #007bff;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+// 7. リストスタイル
+ul,
+ol {
+  margin-bottom: 1em;
+  padding-left: 1.5em;
+}
+
+// 8. 引用スタイル
+blockquote {
+  font-style: italic;
+  border-left: 4px solid #ccc;
+  padding-left: 1em;
+  margin-left: 0;
+}
+
+// 9. コードスタイル
+code {
+  font-family: monospace;
+  background-color: #f8f8f8;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+}
+
+// 10. ユーティリティクラス
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.text-italic {
+  font-style: italic;
+}
