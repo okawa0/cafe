@@ -1,38 +1,8 @@
 @use "base/reset";
+@use "base/base";
 @use "layout/header";
 @use "layout/footer";
 @use "utils/colors";
 @use "utils/typography";
 @use "./mixin";
 @use "./variables";
-
-.image-container {
-  position: relative;
-  display: inline-block;
-  width: 100%;
-
-  img {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-
-  .overlay-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px 20px;
-    font-size: 56px;
-    font-weight: bold;
-    text-align: center;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-  font-family: "Kaisei Decol",
-  serif;
-  font-weight: 900;
-  font-style: normal;
-    width: 80%;
-  }
-}

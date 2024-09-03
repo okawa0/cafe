@@ -33,6 +33,34 @@ img {
   height: auto;
 }
 
+.image-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.image-container .overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  font-size: 56px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  font-family: "Kaisei Decol", serif;
+  font-weight: 900;
+  font-style: normal;
+  width: 80%;
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -165,32 +193,4 @@ code {
 
 .text-italic {
   font-style: italic;
-}
-
-.image-container {
-  position: relative;
-  display: inline-block;
-  width: 100%;
-}
-.image-container img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-.image-container .overlay-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #fff;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 10px 20px;
-  font-size: 56px;
-  font-weight: bold;
-  text-align: center;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-  font-family: "Kaisei Decol", serif;
-  font-weight: 900;
-  font-style: normal;
-  width: 80%;
 }/*# sourceMappingURL=style.css.map */
