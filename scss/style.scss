@@ -1,3 +1,9 @@
+@use "base/reset";
+@use "layout/header";
+@use "layout/footer";
+@use "utils/colors";
+@use "utils/typography";
+@use "./mixin";
 @use "./variables";
 
 .image-container {
