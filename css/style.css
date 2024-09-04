@@ -35,30 +35,66 @@ img {
 
 .image-container {
   position: relative;
-  display: inline-block;
+  display: flex;
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 .image-container img {
   display: block;
   width: 100%;
   height: auto;
+  margin: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .image-container .overlay-text {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #fff;
-  background-color: rgba(0, 0, 0, 0.5);
   padding: 10px 20px;
   font-size: 56px;
   font-weight: bold;
   text-align: center;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-  font-family: "Kaisei Decol", serif;
   font-weight: 900;
   font-style: normal;
   width: 80%;
+}
+
+.shop_intro {
+  background-color: #d9e8d4;
+  padding: 100px;
+  text-align: center;
+  background-image: url("../../img/intro_bg.png");
+  background-size: cover;
+  /* 画像を画面全体にフィットさせる */
+  background-position: center;
+  /* 画像を中央に配置 */
+  background-repeat: no-repeat;
+  /* 画像を繰り返さない */
+  margin: 0;
+}
+.shop_intro h2, .shop_intro h3, .shop_intro p, .shop_intro img {
+  margin: 50px;
+  color: #fefefe;
+}
+
+.shop_images {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.shop_image {
+  width: 30%;
+  border-radius: 15px;
+  height: 200px;
+}
+
+.business_hours {
+  margin-top: 20px;
 }
 
 .header {
@@ -193,4 +229,13 @@ code {
 
 .text-italic {
   font-style: italic;
+}
+
+.overlay-text {
+  font-size: 1px;
+  font-family: "Shippori Antique B1", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #f8f8f8;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.9);
 }/*# sourceMappingURL=style.css.map */

@@ -6,6 +6,7 @@ $base-font-family: 'Roboto',
 sans-serif;
 $base-font-size: 16px;
 $base-line-height: 1.5;
+$font-family-title:'Kaisei Decol';
 
 // 3. 基本的なタイポグラフィスタイル
 body {
@@ -104,4 +105,14 @@ code {
 
 .text-italic {
   font-style: italic;
+}
+
+.overlay-text {
+    font-size: 1px;
+  font-family: "Shippori Antique B1",
+  sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #f8f8f8;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.9);
 }

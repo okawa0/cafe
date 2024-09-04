@@ -9,3 +9,11 @@
     @content;
   }
 }
+
+@mixin apply-font($font-family) {
+  font-family: $font-family;
+}
+
+h1{
+  @include apply-font($font-family-title);
+}
