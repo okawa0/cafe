@@ -19,7 +19,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 10px 20px;
-    font-size: 56px;
+    font-size: 45px;
     font-weight: bold;
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
@@ -28,7 +28,7 @@
     width: 80%;
   }
 }
-
+@import "../utils/typography.scss";
 .shop_intro {
   background-color: #d9e8d4;
   padding: 100px;
@@ -46,7 +46,18 @@
       color: #fefefe;
     }
     h2{
-       @include apply-font($font-family-title);
+      font-family: $font-family-title;
+      font-size: 3rem;
+      padding-bottom: 2rem;
+    }
+    h3{
+      font-size: 1.75rem;
+            font-family: "Yu Mincho",
+            serif;
+    }
+    p{
+      font-size:1.5rem;
+      font-family: "Yu Mincho",serif;
     }
 }
 
@@ -64,4 +75,22 @@
 
 .business_hours {
   margin-top: 20px;
+}
+
+.menu{
+  padding: 100px;
+  background-image:url("../img/menu-bg.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: block;
+  h2{
+      font-family: $font-family-title;
+      font-size: 3rem;
+      padding-bottom: 2rem;
+      }
+
+  img{
+    width: 50vw;
+  }
 }
