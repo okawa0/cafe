@@ -363,9 +363,34 @@ code {
 }
 .menu h2 {
   font-family: "Kaisei Decol";
-  font-size: 3rem;
-  padding-bottom: 2rem;
+  font-size: 4rem;
+  text-align: center;
 }
 .menu img {
   width: 50vw;
+}
+.menu .menu_item {
+  display: flex;
+  align-items: center;
+}
+.menu .menu_item img {
+  width: 50vw;
+  margin: 100px 50px 100px 0;
+}
+.menu .menu_item .menu_text {
+  font-size: 2rem;
+  font-family: "Yu Mincho", serif;
+  color: #fff;
+}
+.menu .menu_item .menu_text .other {
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu .menu_item .menu_text a {
+  text-decoration: none;
+  color: #111;
+  padding: 10px;
+  font-size: 1.5rem;
 }/*# sourceMappingURL=style.css.map */
