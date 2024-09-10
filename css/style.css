@@ -393,4 +393,22 @@ code {
   color: #111;
   padding: 10px;
   font-size: 1.5rem;
+}
+
+#access {
+  font-family: "Yu Mincho", serif;
+  padding: 80px;
+  display: flex;
+}
+#access .access {
+  flex-direction: column;
+  font-size: 2rem;
+}
+#access #map {
+  margin-left: auto;
+}
+#blog {
+  font-family: "Yu Mincho", serif;
+  display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=style.css.map */

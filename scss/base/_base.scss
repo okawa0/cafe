@@ -126,3 +126,25 @@
     }
   }
 }
+#access{
+              font-family: "Yu Mincho",
+              serif;
+  padding: 80px;
+  display: flex;
+  .access{
+flex-direction: column;
+font-size: 2rem;
+  }
+  #map{
+    margin-left: auto;
+  }
+  h2{
+    
+  }
+}
+#blog{
+              font-family: "Yu Mincho",
+              serif;
+              display: flex;
+              flex-direction: column;
+} 
