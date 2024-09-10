@@ -407,8 +407,40 @@ code {
 #access #map {
   margin-left: auto;
 }
+#access p {
+  margin-bottom: 0;
+}
+
 #blog {
   font-family: "Yu Mincho", serif;
   display: flex;
   flex-direction: column;
+  padding: 0 80px 80px 80px;
+}
+
+footer {
+  background-image: url("../img/footer.jpeg");
+  background-size: cover;
+  /* 画像を画面全体にフィットさせる */
+  background-position: center;
+  /* 画像を中央に配置 */
+  background-repeat: no-repeat;
+  display: flex;
+  font-family: "Yu Mincho", serif;
+  padding: 80px;
+}
+footer .footer nav ul {
+  margin-bottom: 0;
+  margin-left: 655px;
+}
+footer .footer nav ul li a {
+  color: #fff;
+  display: inline-block;
+  margin: 1rem;
+}
+footer .sns {
+  width: 1rem;
+  margin-left: 300px;
+  margin-top: 50px;
+  width: 30px;
 }/*# sourceMappingURL=style.css.map */

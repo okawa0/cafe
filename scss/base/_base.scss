@@ -138,7 +138,7 @@ font-size: 2rem;
   #map{
     margin-left: auto;
   }
-  h2{
+  p{margin-bottom: 0;
     
   }
 }
@@ -147,4 +147,34 @@ font-size: 2rem;
               serif;
               display: flex;
               flex-direction: column;
+                padding:0 80px 80px 80px;
 } 
+
+footer{
+  background-image: url("../img/footer.jpeg");
+      background-size: cover;
+      /* 画像を画面全体にフィットさせる */
+      background-position: center;
+      /* 画像を中央に配置 */
+      background-repeat: no-repeat;
+  display: flex;
+                font-family: "Yu Mincho",
+                serif;
+    padding: 80px;
+
+  .footer{
+
+  nav ul {
+  margin-bottom: 0;
+  margin-left: 655px;
+     li a{ color: #fff;
+        display: inline-block;
+    margin: 1rem;}
+}
+  }
+  .sns {
+    width: 1rem;
+    margin-left: 300px;
+    margin-top: 50px;
+    width: 30px;
+  }}
