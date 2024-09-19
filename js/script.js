@@ -7,3 +7,14 @@ function initMap() {
     };
     var map = new google.maps.Map(document.getElementById('map'), Options);
 }
+
+const images = document.querySelectorAll('#mv img');
+let currentIndex = 0;
+
+function changeImage() {
+  images[currentIndex].classList.remove('active');
+  currentIndex = (currentIndex + 1) % images.length;
+  images[currentIndex].classList.add('active');
+}
+
+setInterval(changeImage, 5000); // 5秒ごとに切り替え

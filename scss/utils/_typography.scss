@@ -107,12 +107,20 @@ code {
   font-style: italic;
 }
 
-.overlay-text {
-    font-size: 1px;
+main body #about.overlay-text {
   font-family: "Shippori Antique B1",
   sans-serif;
   font-weight: 400;
   font-style: normal;
   color: #f8f8f8;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.9);
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 10px 20px;
+      font-size: 45px;
+      font-weight: bold;
+      text-align: center;
+      width: 80%;
 }
