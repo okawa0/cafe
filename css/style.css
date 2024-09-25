@@ -212,6 +212,10 @@ h1 {
   z-index: 9999;
 }
 
+.menu h2 {
+  color: #f8f8f8;
+}
+
 .shop_intro {
   background-color: #d9e8d4;
   padding: 100px;
@@ -491,4 +495,8 @@ h1 {
   text-align: center;
   width: 80%;
   z-index: 9999;
+}
+
+.menu h2 {
+  color: #f8f8f8;
 }/*# sourceMappingURL=style.css.map */
