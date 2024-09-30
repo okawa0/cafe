@@ -11,52 +11,64 @@
     height: 100vh;
     margin: 0;
     object-fit: cover;
-    #main_visual2{
+
+    #main_visual2 {
       height: 100vh;
       width: 100%
     }
-        #main_visual {
-          height: 100vh;
-          width: 100%
-        }
+
+    #main_visual {
+      height: 100vh;
+      width: 100%
+    }
   }
 
 }
+
 @import "../utils/typography.scss";
+
 .shop_intro {
   background-color: #d9e8d4;
   padding: 100px;
   text-align: center;
-    background-image: url("../img/intro_bg.png");
-    background-size: cover;
-    /* 画像を画面全体にフィットさせる */
-    background-position: center;
-    /* 画像を中央に配置 */
-    background-repeat: no-repeat;
-    /* 画像を繰り返さない */
-    margin: 0;
-      transition: opacity 0.5s ease-in-out;
-      .visible {
-        opacity: 1;
-      }
-    h2,h3,p,img{
-      margin: 50px;
-      color: #fefefe;
-    }
-    h2{
-      font-family: $font-family-title;
-      font-size: 3rem;
-      padding-bottom: 2rem;
-    }
-    h3{
-      font-size: 1.75rem;
-            font-family: "Yu Mincho",
-            serif;
-    }
-    p{
-      font-size:1.5rem;
-      font-family: "Yu Mincho",serif;
-    }
+  background-image: url("../img/intro_bg.png");
+  background-size: cover;
+  /* 画像を画面全体にフィットさせる */
+  background-position: center;
+  /* 画像を中央に配置 */
+  background-repeat: no-repeat;
+  /* 画像を繰り返さない */
+  margin: 0;
+  transition: opacity 0.5s ease-in-out;
+
+  .visible {
+    opacity: 1;
+  }
+
+  h2,
+  h3,
+  p,
+  img {
+    margin: 50px;
+    color: #fefefe;
+  }
+
+  h2 {
+    font-family: $font-family-title;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+  }
+
+  h3 {
+    font-size: 1.75rem;
+    font-family: "Yu Mincho",
+      serif;
+  }
+
+  p {
+    font-size: 1.5rem;
+    font-family: "Yu Mincho", serif;
+  }
 }
 
 .shop_images {
@@ -75,119 +87,139 @@
   margin-top: 20px;
 }
 
-.menu{
+.menu {
   padding: 100px;
-  background-image:url("../img/menu-bg.png");
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      display: block;
-  h2{
-      font-family: 'Kaisei Decol',;
-      font-size: 4rem;
-          
-            text-align: center;
-          // -webkit-text-stroke: 2px black;
-      }
+  background-image: url("../img/menu-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
 
-  img{
+  h2 {
+    font-family: 'Kaisei Decol', ;
+    font-size: 4rem;
+
+    text-align: center;
+    // -webkit-text-stroke: 2px black;
+  }
+
+  img {
     width: 50vw;
   }
-  
-  .menu_item{
+
+  .menu_item {
     display: flex;
     align-items: center;
 
-    img{
+    img {
       width: 50vw;
       margin: 100px 50px 100px 0;
     }
-    .menu_text{
-      font-size: 2rem;
-            font-family: "Yu Mincho", serif;
-            color: #fff;
-            .other{
-              background-color: #ccc;
-              display: flex;
-                            justify-content: center;
-                            align-items: center;
-            }
-            a{
-              text-decoration: none;
 
-              color: #111;
-              padding: 10px;
-              font-size: 1.5rem;
-              
-            }
+    .menu_text {
+      font-size: 2rem;
+      font-family: "Yu Mincho", serif;
+      color: #fff;
+
+      .other {
+        background-color: #ccc;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      a {
+        text-decoration: none;
+
+        color: #111;
+        padding: 10px;
+        font-size: 1.5rem;
+
+      }
     }
   }
 }
-#access{
-              font-family: "Yu Mincho",
-              serif;
+
+#access {
+  font-family: "Yu Mincho",
+    serif;
   padding: 80px;
   display: flex;
-  .access{
-flex-direction: column;
-font-size: 2rem;
+
+  .access {
+    flex-direction: column;
+    font-size: 2rem;
   }
-  #map{
+
+  #map {
     margin-left: auto;
   }
-  p{margin-bottom: 0;
-    
+
+  p {
+    margin-bottom: 0;
+
   }
 }
-#blog{
-              font-family: "Yu Mincho",
-              serif;
-              display: flex;
-              flex-direction: column;
-                padding:0 80px 80px 80px;
-} 
 
-footer{
-  background-image: url("../img/footer.jpeg");
-      background-size: cover;
-      /* 画像を画面全体にフィットさせる */
-      background-position: center;
-      /* 画像を中央に配置 */
-      background-repeat: no-repeat;
+#blog {
+  font-family: "Yu Mincho",
+    serif;
   display: flex;
-                font-family: "Yu Mincho",
-                serif;
-    padding: 80px;
-
-  .footer{
-  nav ul {
-  margin-bottom: 0;
-  margin-left: 655px;
-     li a{ color: #fff;
-        display: inline-block;
-    margin: 1rem;}
+  flex-direction: column;
+  padding: 0 80px 80px 80px;
 }
+
+footer {
+  background-image: url("../img/footer.jpeg");
+  background-size: cover;
+  /* 画像を画面全体にフィットさせる */
+  background-position: center;
+  /* 画像を中央に配置 */
+  background-repeat: no-repeat;
+  display: flex;
+  font-family: "Yu Mincho",
+    serif;
+  padding: 80px;
+
+  .footer {
+    nav ul {
+      margin-bottom: 0;
+      margin-left: 655px;
+
+      li a {
+        color: #fff;
+        display: inline-block;
+        margin: 1rem;
+      }
+    }
   }
+
   .sns {
     width: 1rem;
     margin-left: 300px;
     margin-top: 50px;
     width: 30px;
-  }}
+  }
+}
+
 #mv img {
   opacity: 0;
   transition: opacity 1s;
   position: absolute;
   top: 0;
   left: 0;
-object-fit: cover;
+  object-fit: cover;
+    // display: none;
+    /* 追加 */
 }
 
 #mv img.active {
   opacity: 1;
+    // display: block;
+    /* 追加 */
 }
 
-body{
+body {
   object-fit: cover;
 }
 
@@ -195,9 +227,16 @@ body{
   .shop_images {
     flex-direction: column;
   }
+
   img {
     width: 100%;
     height: 300px;
     object-fit: cover;
   }
+}
+
+#main_visual,
+#main_visual2 {
+  padding-top: 100px;
+  /* ヘッダーの高さに合わせて調整 */
 }
